@@ -99,6 +99,7 @@ namespace Microsoft.OpenXMLEditor
 //TODO    [ProvideObject(typeof(PropertyPage))]
     [Guid(GuidList.guidOpenXMLEditorPkgString)]
     // [CLSCompliant(false)]
+    // todo: replace with AsyncPackage
     public sealed class OpenXMLEditor : Package, IVsInstalledProduct
     {
 
